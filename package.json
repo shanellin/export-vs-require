@@ -1,0 +1,32 @@
+{
+  "name": "send-email-example",
+  "version": "1.0.0",
+  "description": "Node example for sending an email using Node.js, Express.js and Nodemailer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node --presets env server.js",
+    "startMjs": "node --experimental-modules ./server.mjs"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "nodemailer",
+    "email",
+    "send",
+    "form"
+  ],
+  "author": "Inela Avdic Hukic",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "babel-cli": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemailer": "^4.6.8",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}
